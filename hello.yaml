@@ -1,0 +1,25 @@
+#key-value pairs 
+"mercedes": "hello i am the car"
+"kushal" : " hello i am student"
+---
+#lists
+- apple
+- Apple
+#yaml is case sensetive
+- mangoe
+- pineapple
+---
+#blocks
+ cities:
+  -Ahmedabad
+  -mumbai
+  -New Delhi
+#spaces are imporant in the yaml
+---
+cities:
+  -Ahmedabad
+     -mumbai
+    -New Delhi
+#identation is also important in yaml
+...
+#doc is finished there

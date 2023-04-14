@@ -1,0 +1,38 @@
+#kind of string variable
+name: Kushal Badal
+profession: "Student"
+interest: 'Devops'
+---
+# multiline lines can be written with the " | " this sign
+bio: |
+"hello this is kushal badal, i am a student 
+i want to know more about Devops"
+---
+#write single line in the multiple line
+bio: >
+this
+thing
+will be
+treated as a single 
+line
+
+#upper thing is same as this
+bio: "this thing will be treated as a single line"
+
+number: 12345 #integar
+float: 123.45 #float
+booleanValue: Yes # can be written as Y, y ,YES, TRUE, true
+booleanValue: No #can be written as n,N, NO, False , FALSE
+
+#specify the data types
+#using the " !! " marks you can specify
+number: !!int 0
+PositiveNum: !!int 54
+NagativeNum: !!int -45
+binaryNumber: !!int 0b10101
+
+#floatingNumber
+grade: !!float 45.35
+infiniteNumber: !!float .inf
+name: !!str "kushal"
+

@@ -1,0 +1,29 @@
+#key-value pair 
+name : Kushal Badal
+age : 20
+
+#object
+Server:
+  name: "nginx"
+  capcity: 10GB
+
+#lists
+Socialmedia:
+  -instagram-Kd_badal
+  -Twitter-kd_badal
+  -github-kdbadal
+
+# " | " pipe operator
+testing: |
+  this is 
+  multiline 
+  string
+
+#objects in list
+list_of_server:
+  -server_1:
+    name: "ec2"
+    volume: 8GB
+  -server_2:
+    name: "nginx"
+    volume: 1GB
